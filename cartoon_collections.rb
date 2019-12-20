@@ -10,7 +10,7 @@ end
 
 
 def long_planeteer_calls(calls)
-  if (calls.map.length > 4)
+  calls.each {|call| call.length} > 4
     return true 
   else 
   return false
