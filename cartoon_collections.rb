@@ -14,7 +14,7 @@ def long_planeteer_calls(calls)
   if calls.include (call.length > 4)
     return true 
   else 
-    return false}
+    return false
   end
 end
 
