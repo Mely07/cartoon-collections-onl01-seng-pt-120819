@@ -1,7 +1,5 @@
 def roll_call_dwarves(dwarves)
-  index = 1 
-  while index < dwarves.length
- dwarves.each_with_index do|index, dwarf| puts "#{dwarf}. #{index}"
+ dwarves.each_with_index do|dwarf| puts "#{dwarf}"
  end
 end
 
