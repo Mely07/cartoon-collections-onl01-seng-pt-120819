@@ -10,8 +10,9 @@ end
 
 
 def long_planeteer_calls(calls)
-  calls.each {|call| call.size} > 4
-    return true 
+  answer = calls.each {|call| call.size}
+    if (answer > 4) 
+      return true 
   else 
   return false
 end
