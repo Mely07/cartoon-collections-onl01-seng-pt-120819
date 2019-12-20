@@ -10,7 +10,7 @@ end
 
 
 def long_planeteer_calls(calls)
- calls.select {|call| call.size > 4}
+ calls.any? {|call| call.size > 4}
     return true 
   else 
   return false
